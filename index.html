@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Minutos-Segundos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <audio id="sound" src="kick.mp3" style="display: none;"></audio>
+
+    <div class="container">
+        <div class="title">
+            <h1>Stopwatch</h1>
+            <i class="fas fa-bell"></i>
+        </div>
+        <h2>Minutes</h2>
+        <select id="minutes" name="minutes"></select>
+
+        <h2>Seconds</h2>
+        <select id="seconds" name="seconds"></select>
+        <br>
+        <button id="start">Start</button>
+
+        <div id="display">
+            <h3></h3>
+        </div>
+    </div>
+</body>
+</html>
