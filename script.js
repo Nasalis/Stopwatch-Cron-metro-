@@ -39,7 +39,6 @@ var interval;
                     secondsNow = 59;
                 }else{
                     document.querySelector('#sound').play();
-                    alert("Acabou!");
                     clearInterval(interval);
                 }
             }
